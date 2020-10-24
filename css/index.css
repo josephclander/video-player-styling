@@ -1,0 +1,100 @@
+/***************************
+MOBILE FIRST
+***************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 87.5%; /* 14px / 16px = 87.5% */
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+/* .video-wrapper {
+  width: 100%;
+  display: block;
+} */
+
+.transcript {
+  margin: 30px 20px;
+}
+
+.transcript span {
+  transition: all 0.2s;
+}
+
+/***************************
+MEDIA QUERY - FOR DESKTOP
+***************************/
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .transcript {
+    margin: 30px 0;
+  }
+}
+
+/***************************
+CUSTOM PLAYER CONTROL STYLES
+***************************/
+
+.mejs__controls:not([style*='display: none']) {
+  /* styles all controls classes but not those with a display: none declaration */
+  background: rgba(255, 173, 52, 0.9);
+  padding: 0;
+}
+
+.mejs__captions-position-hover {
+  bottom: 50px;
+}
+
+.mejs__captions-text {
+  background: rgba(43, 28, 3, 0.78);
+  box-shadow: 5px 0 0 rgba(43, 28, 3, 0.78), -5px 0 0 rgba(43, 28, 3, 0.78);
+  padding: 5px;
+  display: inline-block;
+}
+
+/***************************
+SELECTED TEXT
+***************************/
+
+.selected {
+  color: rgb(255, 173, 52);
+}
+
+.transcript span:hover {
+  cursor: pointer;
+  color: rgb(40, 116, 192);
+}
