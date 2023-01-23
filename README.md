@@ -1,6 +1,19 @@
-# Treehouse Video Player Project
+# Video Player Styling
 
-In this project, you'll build an HTML5 video player using JavaScript and the HTML5 Video API. Using the supplied mockups, video files, and transcript, you'll build an interactive video player that synchronizes the video and the transcript. The transcript should be placed below the video, and should highlight as the video progresses. When a user clicks any part of the transcript it should take them to the appropriate place in the video.
+An HTML5 video player built using JavaScript and the HTML5 Video API. Using the supplied mockups, video files, and transcript, I have built an interactive video player that synchronizes the video and the transcript. The transcript should be placed below the video, and should highlight as the video progresses. When a user clicks any part of the transcript it should take them to the appropriate place in the video.
+
+## Screenshot
+<img width="300px" src="https://user-images.githubusercontent.com/19231569/214114082-5f52a844-238a-4177-83ec-1216a2e44e96.png" />
+
+## Contents
+
+[Requirements](#requirements)
+
+[Extra Features](#extra-features)
+
+[Notes from the Build](#notes-from-the-build)
+
+[Testing](#testing)
 
 ## Requirements
 * Build the basic layout based on the mockups.
@@ -10,11 +23,11 @@ In this project, you'll build an HTML5 video player using JavaScript and the HTM
 * Mobile first.
 * Style the page to roughly match the mockups for mobile and tablet-desktop as guides.
 
-### Extra
+## Extra Features
 * When the user clicks on any sentence in the transcript the video player jumps to the appropriate time in the video.
 * Customize the media player skin.
 
-## Notes from the build process
+## Notes from the Build
 The design was based on my impression from the mockups and layout was set and adjusted accordingly. Text size was also adjusted for mobile but I couldn't be sure if there was difference in size. Plain sans-serif font was chosen as I couldn't select the text to compare. The orange colour was selected by sampling the highlighted text in the mockup.
 As an aside, I had difficulty getting the recommended player to work when mixing guidance from old videos and the owner's own docs. This was using the 'non-legacy' cdns for js and css. When I downloaded directly, apart from moving the svg to the css folder, there were no further issues. This took over 50% of the time for the build.
 
